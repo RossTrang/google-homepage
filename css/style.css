@@ -1,0 +1,40 @@
+body {
+	background: navy;
+}
+
+
+.bones {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+	background: red;
+	border: 3px;
+	height: 200px;
+	width: 40%;
+}
+
+.logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+
+
+.bones .input-box {
+	width: 20%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
