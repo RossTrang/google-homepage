@@ -3,6 +3,40 @@ body {
 	padding: 0;
 }
 
+.footer, .header {
+	font-family: arial, sans-serif;
+	font-size: small;
+
+}
+
+button {
+	border-radius: 2px;
+	border: 0;
+	padding: 10px;
+
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: right;
+}
+
+.header ul {
+		list-style-type: none;
+}
+
+.header li {
+	display: inline;
+	padding: 10px;
+}
+
+.header button {
+		background: #2644F7;
+		color: #fff
+}
+
 .bones {
 	display: flex;
 	flex-direction: column;
@@ -27,8 +61,8 @@ body {
 	overflow-x: hidden;
 }
 
-.buttons #search, #lucky{
-	padding: 10px;
+.buttons #search, #lucky {
+	background: #f2f2f2;
 	margin: 0px 10px 0px 10px;
 }
 
@@ -37,8 +71,6 @@ body {
 	bottom: 0;
 	width: 100%;
 	background: #f2f2f2;
-	font-family: arial, sans-serif;
-	font-size: small;
 	white-space: nowrap;
 	
 }
