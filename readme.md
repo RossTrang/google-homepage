@@ -2,9 +2,9 @@ The Odin Project - HTML/CSS Project
 
 Deconstruct and recreate Google homepage
 
-BY the end of this project familiarity with the following should be gained:
+By the end of this project familiarity with the following should be gained:
 
-	* Git via Sublime Text 3 (optional SublimeGit plugin - Github / terminal commands if not using plugin)
+	* Git  / Github (optional SublimeGit plugin - terminal commands if not using plugin)
 	* Chrome Dev Tools
 	* HTML / CSS Styling
 		* Two ways to move a div around on the page
