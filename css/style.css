@@ -1,3 +1,7 @@
+@media (max-width: 800px) {
+	
+}
+
 body {
 	background: navy;
 }
@@ -5,17 +9,12 @@ body {
 
 .bones {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	text-align: center;
+	align-items: center;
 	margin: 0 auto;
-	background: red;
-	border: 3px;
-	height: 200px;
-	width: 40%;
-}
 
-.logo {
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
@@ -25,16 +24,24 @@ body {
 	        transform: translate(-50%, -50%);
 }
 
+.footer {
+	position: fixed;
+	bottom: 0;
+	display: inline-grid;
+	grid-template-columns: 50% 50%;
+}
 
+.footer ul {
+	list-style-type: none;	
+}
 
-.bones .input-box {
-	width: 20%;
-	position: relative;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	   -moz-transform: translate(-50%, -50%);
-	    -ms-transform: translate(-50%, -50%);
-	     -o-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
+.footer li {
+	display: inline;
+	padding: 20px;
+}
+
+.footer #r-nav {
+	text-align: right;
+	grid-column-start: 2;
+	justify-self: end;
 }
